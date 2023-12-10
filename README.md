@@ -11,8 +11,10 @@ Reviseted source code from paper [Reconstruction of Panoramic Dental Images Thro
 
 You might need (or not) to rename the files:
 
-```mv interpolation.*.so interpolation.so
-   mv draw_bezier.*.so draw_bezier.so```
+```
+mv interpolation.*.so interpolation.so
+mv draw_bezier.*.so draw_bezier.so
+```
 
 ## Running
 
