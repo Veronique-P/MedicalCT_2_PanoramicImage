@@ -3,13 +3,14 @@ Reviseted source code from paper [Reconstruction of Panoramic Dental Images Thro
 
 ## Prerequisites (Tested on Ubuntu 20.04):
 
-`pip install h5py imageio matplotlib nibabel numpy scipy scikit-image Cython`
+`pip install -r requirements.txt`
 
 ### Compile Cython code:
 
 `python setup.py build_ext --inplace`
 
 You might need (or not) to rename the files:
+
 `mv interpolation.*.so interpolation.so`
 `nv draw_bezier.*.so draw_bezier.so`
 
@@ -33,6 +34,9 @@ Options:
   -t THRESHOLD, --threshold=THRESHOLD
                         Threshold used to determine the dental arcade
   -s, --skeleton        Generate skeleton image
+  -k, --skip            Assumes input data is a binary volume (resulting from a teeth detection algorithm)
+  -v, --verbose         Verbose mode
+  -l, --plot            Matplotlib plots of intermediate results
 
 ```
 
