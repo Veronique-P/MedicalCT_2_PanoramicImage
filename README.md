@@ -1,5 +1,5 @@
 # Panoramic Generator
-Reviseted source code from paper [Reconstruction of Panoramic Dental Images Through Bézier Function Optimization](https://doi.org/10.3389/fbioe.2020.00794). Code borrowed and modified from https://github.com/paulojamorim .
+Revisited source code of the paper [Reconstruction of Panoramic Dental Images Through Bézier Function Optimization](https://doi.org/10.3389/fbioe.2020.00794). Code borrowed and modified from https://github.com/paulojamorim .
 
 ## Prerequisites (Tested on Ubuntu 20.04):
 
