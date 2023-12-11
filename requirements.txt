@@ -5,3 +5,4 @@ numpy==1.26
 scipy==1.11.13 
 scikit-image==0.22.0 
 Cython==3.0.5
+pynrrd==1.0.0
